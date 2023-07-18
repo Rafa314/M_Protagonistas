@@ -19,6 +19,7 @@ nav{
     background-attachment:scroll;
     background-size: cover;
     padding: 18px;
+    text-align: center;
 }
 nav img{
     width: 23vh;
@@ -58,6 +59,7 @@ nav p{
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;
+    
 }
 
 .images img{
@@ -72,3 +74,36 @@ footer{
     text-align: center;
     background-image: linear-gradient(#312b2b,#000);
 }
+
+/*responsividade*/
+@media screen and (max-width:1005px){
+     nav{
+        padding: 20px;
+     }
+    nav h1{
+        color: #fff;
+        font-family: inherit;
+        font-weight: 100;
+        font-size: 5vh;
+    }
+    nav h1 span{
+        
+        color: #947838;
+        font-family: 'Dancing Script', cursive;
+        font-size: 120%;
+    }
+
+    .images img{
+        
+        height: 20vh;
+        width: 40vh;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    footer{
+        text-align: center;
+        background-image: linear-gradient(#312b2b,#000);
+    }
+
+}  
