@@ -20,17 +20,14 @@ nav{
     background-size: cover;
     padding: 18px;
     text-align: center;
+    
 }
-nav img{
-    width: 23vh;
+nav .perfil{
+    width: 35vh;
     border-radius: 110px;
+    
 }
-nav h1{
-    color: #fff;
-    font-family: inherit;
-    font-weight: 100;
-    font-size: 6vh;
-}
+
 nav h1 span{
     
     color: #947838;
@@ -80,6 +77,10 @@ footer{
      nav{
         padding: 20px;
      }
+     nav  .logo{
+        height: 18vh;
+        
+     }
     nav h1{
         color: #fff;
         font-family: inherit;
@@ -92,6 +93,7 @@ footer{
         font-family: 'Dancing Script', cursive;
         font-size: 120%;
     }
+  
 
     .images img{
         
